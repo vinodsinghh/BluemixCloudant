@@ -1,0 +1,8 @@
+applications:
+- name: rtecloudant
+  memory: 256M
+  instances: 1
+  host: rtecloudant
+  domain: mybluemix.net
+  path: .
+  command: node bmcloudant.js
